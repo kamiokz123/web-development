@@ -1,0 +1,52 @@
+body {
+    background-image: url(/asset-tokenization-810.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 1150px 800px;
+    
+}
+
+a{
+    position: relative;
+    color: rgba(91, 218, 108, 0.884);
+    margin: 60px;
+    font-size: 35px;
+    width: 60vw;
+    
+    
+}
+
+header{
+    color: rgb(240, 241, 236);
+    
+    width: 560px;
+    margin: 50px;
+}
+
+h1{
+    size: 700px;
+    font-size: 55px;
+}
+footer{
+    position: relative;
+    color: azure;
+    top: 70px;
+}
+div{
+    position: relative;
+    width: 580px ;
+    height: 100px;
+    display: flex;
+    
+    
+}
+main{
+    position: relative;
+    background-color: rgb(17, 17, 20);
+    height: 200px;
+    width: 980px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    left: 55px;
+    
+}
