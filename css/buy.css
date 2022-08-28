@@ -1,0 +1,44 @@
+body{
+    position: relative;
+    background-image: url("../buy.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px;
+  
+}
+
+
+main{
+    padding-top: 150px;
+}
+header{
+    background-color: black;
+    height: 300px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+h1{
+    color: aliceblue;
+    font-size: 80px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+div{
+    position: relative;
+    left: 480px;
+    bottom: 60px;
+}
+button{
+    position: relative;
+    top: 20px;
+    left: 45px;
+    background-color: skyblue;
+    cursor: grab;
+}
+img{
+    position: relative;
+    height: 7vh;
+    top: 50px;
+    left: 530px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

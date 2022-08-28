@@ -1,0 +1,54 @@
+body{
+    background-image: url("../create_token.png");
+    background-repeat: no-repeat;
+    background-size: 1200px 750px;
+}
+
+div{
+    position: relative;
+    left: 400px;
+    top: 200px;
+}
+
+img{
+    position: relative;
+    height: 10vh;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 350px;
+    left: 480px;
+}
+label{
+    color: aliceblue;
+    margin-right: 15px;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+#symbol{
+    position: relative;
+    left: 17px;
+}
+#name{
+    position: relative;
+    left: 29px;
+}
+#price{
+    position: relative;
+    left: 32px;
+}
+#decimal{
+    position: relative;
+    left: 7px;
+}
+#supply{
+    position: relative;
+    right: 15px;
+}
+button{
+    position: relative;
+    top: 10px;
+}
