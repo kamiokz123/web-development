@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(224, 176, 176);
+    background-attachment: fixed;
+}
+div{
+    background-color: rgba(236, 209, 176, 0.452);
+    border: solid black;
+    width: 300px;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 15px 20px 10px rgb(97, 89, 89);
+    /* background-attachment:scroll;   */
+   
+
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input[type=button]{
+    background-color: brown;
+    color: aliceblue;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 5px;
+    margin-top: 15px;
+}
+/*  hower will change property of button while keeping mouse on it */
+
+input[type=button]:hover{
+   background-color: black;
+   color: aliceblue;
+}
+
+h1{
+    color: brown;
+    text-shadow:3px 3px 3px rgb(97, 89, 89) ;
+}

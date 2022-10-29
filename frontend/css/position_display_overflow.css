@@ -1,0 +1,109 @@
+/* position property */
+
+/* relative position */
+
+div#position{
+    border: solid black;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+/* now to move child tags acording to there parent  tags we use
+absolute property of position  */
+
+/* div#child{
+    border: solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    
+    
+} */
+
+/* now fix position */
+
+/* div#position{
+    border: solid black;
+    width: 300px;
+    height: 250px;
+    position: fixed;
+    left: 40px;
+    top: 100px;
+} */
+
+
+div#child{
+    border: solid black;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    left: 100px;
+    top: 120px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* now displAY properties of CSS  it will inline, none and block*/
+
+
+a,img{
+    display: block;
+}
+p,h1{
+    display: inline;
+}
+p.non{
+    display: none;
+}
+
+
+
+
+
+
+/* now we will study overflow in css it can be hidden, auto ,visible  */
+
+
+div.over{
+    height: 60px;
+    width: 60px;
+    border: solid black;
+    overflow: hidden;
+}
+
+
+
+
+
+/*NOW float property in css  */
+
+p#flt{
+    display: inline;
+    color: aqua;
+
+}
+
+img#mg{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    float: right;
+}
+
+
+
+
+

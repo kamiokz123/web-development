@@ -1,0 +1,49 @@
+
+/*  we can assign height and width in px and percentage and vh vw etc*/
+
+/* max height and max width  minimum height and minimum width is used to make your website responsive */
+/* by max or min height or width our tag will adjust itsself */
+div#parent{
+    height: 300px;
+    width: 50%;
+    border: solid;
+}
+div#child{
+    height: 50%;
+    width: 50%;
+    border:solid;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+/* min or max hieght and width */
+/* max will make your tag to donot be more big than you enter value but it can be small but not big than your value  */
+/* min will make your tag to not be small than your given value it can be big but not small */
+
+div#min_max{
+    min-width: 600px;
+    height: 100px;
+    border: solid red;
+}
+
+
+
+
+div#text{
+    height: 100px;
+    width: 600px;
+    border: solid blue;
+}
+
+/* text tags */
+
+p#txt{
+    color: red;
+    /* line decoration values none, underline , line through */
+    text-decoration:none;
+    /* text transform values uppercase,lowercase, capatlize*/
+    text-transform: uppercase;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+

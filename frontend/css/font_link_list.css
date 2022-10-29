@@ -1,0 +1,73 @@
+/* fonts */
+
+body{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+div{
+    font-size: 1em;
+}
+
+
+
+
+/* links */
+
+div#lnk{
+    height: 200px;
+    width: 300px;
+    border: solid;
+}
+
+/*  a link is for normal  */
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+/* a hover is for changing when we are keeping mouse on link */
+
+a:hover{
+    color: aqua;
+    border: solid black;
+}
+
+
+
+
+
+/*   lists   */
+
+ul{
+    list-style-type: decimal;
+    /* position can be inside or outside */
+    list-style-position: outside;
+
+}
+
+
+
+
+/*  tables  */
+
+table,th,td{
+    border: solid black;
+    /* for removing double line use border collape */
+    border-collapse: collapse;
+    height: 100px;
+    width: 600px;
+
+}
+th,td{
+    text-align: center;
+    
+}
+
+td{
+    vertical-align: bottom;
+}
+

@@ -1,0 +1,41 @@
+/* this is background properties in css  */
+
+h1{
+    color: aliceblue;
+}
+h5{
+    color: aliceblue;
+}
+body{
+    
+    /* backgrnd img is use to add image in background */
+
+    background-image: url("/781c24022be5aa2840ca66ebe5a07425.jpg");
+
+/* this repeat is use for repeating image or not 
+three types
+1)repeat 
+2) no repeat
+3) repaet-x or repeat-y */
+
+    background-repeat: no-repeat;
+
+/* coloring bckgrnd */
+
+background-color: aqua;
+
+/* you can give size to you background img */
+
+background-size: 200px;
+
+/* we can give position to backround image like right and left and top and bottom
+*/
+background-position: center;
+
+/* now attachment is used to fix or scroll your image  */
+background-attachment: fixed;
+
+
+
+
+}
